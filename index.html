@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/all.min.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto mt-5">
+                <input type="text" class="form-control my-5" placeholder="search" onkeyup="search(event)">
+                <ul id="List" class="list-group">
+                    <li class="list-group-item">Ali</li>
+                    <li class="list-group-item">milad</li>
+                    <li class="list-group-item">ahmad</li>
+                    <li class="list-group-item">Sara</li>
+                    <li class="list-group-item">Mahmood</li>
+                    <li class="list-group-item">reza</li>
+                    <li class="list-group-item">farshad</li>
+                    <li class="list-group-item">Behrad</li>
+                    <li class="list-group-item">zahra</li>
+                    <li class="list-group-item">Niloofar</li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
+    <script>const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))</script>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
